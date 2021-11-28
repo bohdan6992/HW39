@@ -2,39 +2,38 @@
   box-sizing: border-box;
 }
 body {
-  background: url(../images/background.jpg);
+  background: url(../images/wallpapers.jpg);
   background-size: cover;
 }
-.search {
-  margin-bottom: 5vh;
-  margin-top: 20vh;
-  text-align: center;
-}
-select {
-  overflow-y: scroll;
-  opacity: 0.7;
+.name {
   width: 50%;
   height: 10vh;
-  color: rgb(211, 36, 218);
+  font-size: 60px;
+  text-align: center;
+  color: white;
 }
 #select-element {
   font-size: 30px;
   text-align: center;
 }
-.btn{
+.films{
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+.film{
   width: 10%;
-  height: 10vh;
-  height: 10vh;
-  opacity: 0.7;
-  font-size: 30px;
-  background-color: rgb(211, 36, 218);
+  height: 40vh;
+  background: rgba(3, 3, 3, 0.295);
+  opacity: 0.8;
   color: white;
 }
-.photo{
-  width: 60%;
-  margin: 0 auto;
-}
 
+li{
+  font-size: 20px;
+  color: white;
+}
 .img {
   text-align: center;
 }

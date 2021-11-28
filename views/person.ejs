@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>breeds</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="name">
+      <% if (locals.name) { %>
+          <%- name %>
+        <% } %>
+    </div>
+    
+    <% if (locals.filmsList) { %>
+      <div class="films">
+        <h1>Films:</h1>
+        <%- filmsList %>
+        <% if (locals.speciesList) { %>
+          <div class="species">
+            
+            <ul>
+              <%- speciesList %>
+            </ul>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+    
+
+   
+    <script src="/js/main.js"></script>
+
+  </body>
+</html> 
