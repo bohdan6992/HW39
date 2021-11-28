@@ -12,17 +12,9 @@
     </div>
     
     <% if (locals.filmsList) { %>
+      <p>Films:</p>
       <div class="films">
-        <h1>Films:</h1>
         <%- filmsList %>
-        <% if (locals.speciesList) { %>
-          <div class="species">
-            
-            <ul>
-              <%- speciesList %>
-            </ul>
-          </div>
-        <% } %>
       </div>
     <% } %>
     
