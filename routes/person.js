@@ -21,7 +21,7 @@ const getInfo = async(url, ress) => {
 }
 
 router.get('/:personNum', (req, res) => { 
-  const URL = `https://swapi.dev/api/people/${req.params.personNum}`;
+  const URL = `https://swapi.dev/api/people/${req.params.personNum}`; 
   getInfo(URL, res)
 });
 
